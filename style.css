@@ -18,7 +18,7 @@ body {
 }
 
 .blog-card {
-    width: 420px;
+    width: 370px;
     height: 500px;
     padding: 20px;
     border-radius: 20px;
@@ -47,25 +47,26 @@ body {
 .card-content {
     height: 100%;
     padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .card-category span {
     background-color: hsl(47, 88%, 63%);
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     font-weight: 700;
 }
 
 .card-header h2 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
-    padding: 20px 0;
     text-wrap-style: pretty;
 }
 
 .card-des p {
     color: hsl(0, 0%, 42%);
-    padding-bottom: 20px;
     text-wrap-style: pretty;
 }
 
