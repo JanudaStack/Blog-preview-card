@@ -31,25 +31,31 @@ body {
 }
 
 .card-area-inner {
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .card-img {
-    width: 100%;
+    border-radius: 14px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .card-img img {
+    display: inline-block;
     width: 100%;
-    height: auto;
-    border-radius: 14px;
+    height: 100%;
 }
 
 .card-content {
-    height: 100%;
-    padding: 20px 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
+}
+
+.card-category {
+    width: fit-content;
 }
 
 .card-category span {
@@ -67,7 +73,7 @@ body {
 
 .card-des p {
     color: hsl(0, 0%, 42%);
-    text-wrap-style: pretty;
+    text-wrap-style: stable;
 }
 
 .card-owner {
